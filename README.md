@@ -19,9 +19,9 @@ Yes, as long as you change something.
 The original project was made by Quandz24 so credits go to him.
 
 # VERSION TRACK
-- 1.6.1: September 16
-- 1.6.2: September 20
-- 1.7.0: October 1
-- 1.7.1: October 5
-- 1.7.2: October 10
-- 1.8.0: November 1
+- 1.6.2: October 1
+- 1.7.0: October 5
+- 1.7.1: October 10
+- 1.7.2: October 12
+- 1.8.0: November 14
+- 1.8.1: November 21
