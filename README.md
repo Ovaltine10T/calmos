@@ -1,5 +1,5 @@
-# Origami WEB
-This is a website which simulates OriginOS, but better!
+# CalmOS
+This is a website which simulates a conecpt OS!
 
 # Design
 The UI is completely changed and everything is round for a cleaner and more simplistic look, whilst still having functionality.
@@ -19,9 +19,5 @@ Yes, as long as you change something.
 The original project was made by Quandz24 so credits go to him.
 
 # VERSION TRACK
-- 1.6.2: October 1
-- 1.7.0: October 5
-- 1.7.1: October 10
-- 1.7.2: October 12
-- 1.8.0: November 14
-- 1.8.1: November 21
+17.0 - Nov 2
+17.1 - December 15
