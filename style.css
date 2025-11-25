@@ -2341,6 +2341,7 @@ input[type="range"] {
   backdrop-filter: blur(0px);
   opacity: 0;
   transition: opacity 0.3s cubic-bezier(0.2, 0.2, 0.12, 1);
+  z-index: 20
 }
 .lp.open {
   opacity: 1;
