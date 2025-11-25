@@ -1643,7 +1643,7 @@ input[type="file"] {
   color: white;
   font-size: 100px;
   font-weight: 600;
-  font-family: "Abril Fatface", serif;
+  font-family: "Noto sans", serif;
   transition: all 0.2s ease;
   margin-top: 100px;
   scale: 1;
@@ -2188,7 +2188,7 @@ input[type="range"] {
 #text_lock_cus_2 {
   position: absolute;
   z-index: 1;
-  font-family: "Abril Fatface", serif;
+  font-family: "Noto sans", serif;
   font-size: 25px;
   color: rgba(147, 111, 134, 255);
   bottom: 17px;
