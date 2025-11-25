@@ -73,8 +73,8 @@ body::-webkit-scrollbar-thumb:hover {
   width: var(--bg--size_width_phone);
   height: var(--bg--size_height_phone);
   border-radius: calc(var(--bg--border_radius_phone) + 1px);
-  border: px solid rgb(0, 0, 0);
-  outline: 1px solid #793135;
+  border: 1.5px solid rgb(0, 0, 0);
+  outline: 1px solid #94eaff;
   outline-offset: 1px;
   background: linear-gradient(
     to bottom,
@@ -140,7 +140,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 50%;
   scale: 40%;
   filter: blur(0px);
-  border-radius: 0px;
+  border-radius: 10px;
 }
 .circle {
   width: 30px;
@@ -187,7 +187,7 @@ body::-webkit-scrollbar-thumb:hover {
 .box {
   position: absolute;
   overflow: hidden;
-  border-radius: var(--bg-border_radius, 20px);
+  border-radius: var(--bg-border_radius, 15px);
   width: 60px;
   aspect-ratio: 1 / 1;
   font-size: 24px;
