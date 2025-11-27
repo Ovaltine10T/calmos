@@ -4110,7 +4110,7 @@ input[type="range"] {
   width: calc(330px * 0.7);
   height: calc(330px * 0.7);
   border-radius: 50%;
-  border: 40px solid rgba(0, 0, 255, 0.65);
+  border: 40px solid rgb(74 0 255 / 65%);
   text-align: center;
   z-index: 1;
   transition: all 0.5s ease-in, transform 0.5s ease, background 0.1s ease-in-out,
@@ -4132,7 +4132,7 @@ input[type="range"] {
 }
 
 #box2_setup {
-  transform: translateX(235%) translateY(-160%);
+  transform: translateX(100%) translateY(0%);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -4148,7 +4148,7 @@ input[type="range"] {
 #box1_setup.anim {
   transition: all 0.5s ease-in-out, height 0.5s ease, width 0.5s ease,
     background 0.25s, border 0.25s;
-  transform: translateX(-65%) translateY(-350%);
+  transform: translateX(-50%) translateY(-35%);
   width: 20px;
   height: 30px;
   border-radius: 15px;
