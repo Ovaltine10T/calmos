@@ -167,7 +167,7 @@ let time_all = parseFloat(localStorage.getItem("time_all")) || 0.5;
 let cubic_ratio =
   localStorage.getItem("cubic_ratio") || "cubic-bezier(0.07,0.74,0.37,0.98)";
 let cubic_all =
-  localStorage.getItem("cubic_all") || "cubic-bezier(0.25,0.1,0.25,1)";
+  localStorage.getItem("cubic_all") || "cubic-bezier(0.25,0,0,1)";
 
 let time_opening_app = time_all * currentSpeed;
 let time_aspect_ratio_app = time_all * currentSpeed * 0.9;
