@@ -7,7 +7,7 @@
   --bg--size_width_phone: 330px;
   --bg--size_height_phone: 700px;
   --bg--border_radius_phone: 45px;
-  --bg--scale_phone: 0.8;
+  --bg--scale_phone: 0.9;
   --bg--border_radius_system: 35px; /* 20-35px */
   --bg--background: #eaeaea;
   --bg--background2: #ffffff;
@@ -213,7 +213,7 @@ body::-webkit-scrollbar-thumb:hover {
   transition: all 0.3s ease;
   z-index: 0;
   opacity: 1;
-  box-shadow: inset 0 0 10px #ffffffb3;
+  box-shadow: inset 0 0 3px #ffffffb3;
 }
 #previewPositionIcon {
   position: relative;
@@ -2404,7 +2404,7 @@ input[type="range"] {
   font-weight: 500;
   font-family: "slate for oneplus", sans-serif;
   color: #353535;
-  box-shadow: inset 0 0 10px #ffffff6b;
+  box-shadow: inset 0 0 3px #ffffff6b;
 }
 .btn_calc:hover {
   background: #e0e0e0;
@@ -2455,7 +2455,7 @@ input[type="range"] {
   font-family: "slate for oneplus", sans-serif;
   background: #ffffff21;
   color: var(--bg--color);
-  box-shadow: inset 0 0 10px #ffffff44;
+  box-shadow: inset 0 0 3px #ffffff44;
 }
 .btn_phone span {
   display: block;
@@ -2490,6 +2490,7 @@ input[type="range"] {
   display: flex;
   justify-content: center;
   border-top: 2px solid #86868642;
+  border-bottom: 2px solid #86868642;
   padding: 8px 0;
   gap: 50px;
   background: #ffffff24;
@@ -2780,7 +2781,7 @@ input[type="range"] {
 .footer-text {
   position: fixed;
   bottom: 20px;
-  width: 80%;
+  width: 40%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 12px;
@@ -3250,8 +3251,8 @@ input[type="range"] {
   display: flex;
   top: 33px;
   left: 50%;
-  height: 25px;
-  width: 25px;
+  height: 15px;
+  width: 15px;
   transform: translateX(-50%) scale(1);
   border-radius: 25px;
   background-color: #000000;
@@ -3373,8 +3374,8 @@ input[type="range"] {
   display: flex;
   top: 33px;
   left: 50%;
-  height: 25px;
-  width: 25px;
+  height: 15px;
+  width: 15px;
   transform: translateX(-50%) scale(1);
   border-radius: 25px;
   background-color: #000000;
