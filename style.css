@@ -564,7 +564,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 4px;
   display: flex;
   touch-action: auto;
-  background: #ccc;
+  background: #fff;
   pointer-events: all;
 }
 .allApp {
@@ -668,6 +668,7 @@ body::-webkit-scrollbar-thumb:hover {
   flex-direction: column;
   align-items: center; /* nếu muốn căn giữa ngang */
   justify-content: flex-start; /* đẩy chữ lên trên */
+  right: 80px;
 }
 .lock-clock.tat {
   transform: scale(0.95) translateY(160px);
@@ -679,7 +680,7 @@ body::-webkit-scrollbar-thumb:hover {
   justify-content: none;
   font-size: 20px;
   top: 95px;
-  left: 50%;
+  left: 24%%;
   transform: translateX(-50%) translateY(0px);
   scale: 1;
   transform-origin: center;
@@ -3949,8 +3950,8 @@ input[type="range"] {
   position: fixed;
   left: 50%;
   bottom: 2px;
-  width: 130px;
-  height: 3px;
+  width: 120px;
+  height: 4px;
   opacity: 1;
   background: #ffffff;
   border-radius: 20px;
