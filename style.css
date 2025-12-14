@@ -4170,7 +4170,7 @@ input[type="range"] {
 #box1_setup.anim {
   transition: all 0.5s ease-in-out, height 0.5s ease, width 0.5s ease,
     background 0.25s, border 0.25s;
-  transform: translateX(-70%) translateY(-350%);
+  transform: translateX(-220%) translateY(-350%);
   width: 20px;
   height: 30px;
   border-radius: 15px;
@@ -4187,7 +4187,7 @@ input[type="range"] {
 
 #box2_setup.anim {
   transition: all 0.6s, scale 0.5s cubic-bezier(0.84, -1.12, 0.55, 0.55);
-  transform: translateX(155%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   width: 40px;
   height: 45px;
   border-radius: 15px;
@@ -4283,8 +4283,7 @@ input[type="range"] {
 
 #top_text_setup {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 10%;
   top: 190px;
   font-size: 30px;
   font-family: 'slate for oneplus', sans-serif;
