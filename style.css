@@ -668,7 +668,7 @@ body::-webkit-scrollbar-thumb:hover {
   flex-direction: column;
   align-items: center; /* nếu muốn căn giữa ngang */
   justify-content: flex-start; /* đẩy chữ lên trên */
-  right: 80px;
+  right: 70px;
 }
 .lock-clock.tat {
   transform: scale(0.95) translateY(160px);
