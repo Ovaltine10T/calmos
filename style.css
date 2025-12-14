@@ -207,12 +207,13 @@ body::-webkit-scrollbar-thumb:hover {
   content: "";
   position: absolute;
   inset: 0;
-  border-radius: 0px;
+  border-radius: 15px;
   background: var(--bg--originos) no-repeat center/cover;
   background-size: var(--bg-size_img);
   transition: all 0.3s ease;
   z-index: 0;
   opacity: 1;
+  box-shadow: inset 0 0 10px #ffffffb3;
 }
 #previewPositionIcon {
   position: relative;
@@ -581,8 +582,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .khayapp {
   position: absolute;
-  background-color: #ffffff65;
-  border-radius: 30px;
+  background-color: #ffffff36;
+  border-radius: 20px;
   width: 87%;
   bottom: 25px;
   height: 80px;
@@ -593,6 +594,7 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(-50%) translateY(0%) scale(1);
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   z-index: 0;
+  backdrop-filter: blur(5px);
 }
 .khayapp.lock {
   opacity: 0;
@@ -723,11 +725,11 @@ body::-webkit-scrollbar-thumb:hover {
   translate: 0 calc(-50% - 100px * var(--bg--scale_phone));
   width: 7px;
   height: 80px;
-  background-color: #793135;
+  background-color: #94eaff;
   border-top-left-radius: 0;
-  border-top-right-radius: 5px;
+  border-top-right-radius: 20px;
   border-bottom-left-radius: 0;
-  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 20px;
   z-index: 633426;
   pointer-events: auto;
   scale: var(--bg--scale_phone);
@@ -872,7 +874,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .app4app {
   opacity: 1;
-  transform: translateX(75%) scale(1);
+  transform: translateX(-50%) translateY(80%) scale(.5);
   border-radius: calc(var(--bg--border_radius_phone) - 1px);
   transition: all 0.4s ease;
   pointer-events: all;
@@ -980,10 +982,11 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .status-battery.close {
   right: 35px;
+  top: 15px;
 }
 .battery-small {
   position: absolute;
-  left: 102%;
+  left: 97%;
   width: 2px;
   height: 8px;
   border-radius: 3px;
@@ -1003,7 +1006,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 .battery-num {
   position: absolute;
@@ -1017,7 +1020,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #555;
 }
 .battery-num.close {
-  color: rgba(255, 255, 255, 0);
+  color: rgba(255 255 255);
 }
 .camera {
   transform: translateX(-50%);
@@ -1174,6 +1177,7 @@ p {
   z-index: 443;
   text-align: center;
   transition: all 0.2s;
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 .khaysetting1 {
   top: 130px;
@@ -1226,7 +1230,7 @@ p {
 }
 .originos {
   position: relative;
-  border-radius: 0px;
+  border-radius: 40px;
   background: url("originos_data/OriginOS_setting.jpg") no-repeat center center;
   background-size: 105%;
   width: 90%;
@@ -1306,9 +1310,11 @@ p {
   border: 4px solid transparent;
   transition: border 0.2s ease;
   z-index: 123;
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 .speed-box.active {
   border: 4px solid #f65268;
+  box-shadow: 0 0 10px #f65268;
 }
 .box-wrapper {
   position: relative;
@@ -1376,21 +1382,25 @@ p {
 .wallpaper-btn {
   grid-column: 1;
   grid-row: span 3;
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 
 .lock-btn {
   grid-column: 2;
   grid-row: 1;
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 #finger-btn {
   grid-column: 2;
   grid-row: 2;
   flex-direction: row;
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 #home-btn {
   grid-column: 2;
   grid-row: 3;
   flex-direction: row;
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 
 #aod-btn:active,
@@ -1614,6 +1624,7 @@ input[type="file"] {
   width: 260px;
   max-width: 400px;
   transition: all 0.2s;
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 .setting-item3 {
   display: flex;
@@ -2393,6 +2404,7 @@ input[type="range"] {
   font-weight: 500;
   font-family: "slate for oneplus", sans-serif;
   color: #353535;
+  box-shadow: inset 0 0 10px #ffffff6b;
 }
 .btn_calc:hover {
   background: #e0e0e0;
@@ -2434,14 +2446,16 @@ input[type="range"] {
   width: 70px;
   margin-right: 15px;
   margin-left: 15px;
+  margin-top: 15px;
   height: 70px;
-  border-radius: calc(var(--bg--border_radius_system) + 5px);
+  border-radius: 50px;
   font-size: 1.5rem;
   border: none;
   font-weight: 550;
   font-family: "slate for oneplus", sans-serif;
-  background: #ffffff00;
+  background: #ffffff21;
   color: var(--bg--color);
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 .btn_phone span {
   display: block;
@@ -2454,8 +2468,9 @@ input[type="range"] {
   height: 70px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: #9fdca0;
+  background: #4dd150;
   color: white;
+  box-shadow: inset 0 0 10px #ffffff;
 }
 .delbtn_phone {
   width: 70px;
@@ -2464,19 +2479,21 @@ input[type="range"] {
   margin-right: -5px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 30px;
-  background: #9fdca000;
+  border-radius: 50px;
+  background: #ffffff21;
   color: rgb(0, 0, 0);
 }
 .navbar_phone {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   border-top: 2px solid #86868642;
   padding: 8px 0;
   gap: 50px;
+  background: #ffffff24;
+  border-radius: 70px;
 }
 .navitem_phone {
   width: 60px;
@@ -2548,6 +2565,7 @@ input[type="range"] {
   width: 270px;
   height: 75px;
   transform: scale(0.9);
+  box-shadow: inset 0 0 10px #ffffff44;
 }
 
 .box-title {
@@ -2770,6 +2788,8 @@ input[type="range"] {
   pointer-events: none;
   z-index: 9999;
   text-align: center;
+  background: #1e1e1e;
+  border-radius: 50px;
 }
 .footer-text2 {
   margin-top: 350px;
@@ -3022,6 +3042,7 @@ input[type="range"] {
   cursor: pointer;
   position: absolute;
   transition: all 0.4s ease;
+  box-shadow: inset 0 0 10px #ffffffb8;
 }
 
 .btn-start_clock:active {
@@ -3620,6 +3641,7 @@ input[type="range"] {
   background: gray;
   height: 40px;
   width: 40px;
+  box-shadow: inset 0 0 10px #ffffff;
 }
 .plus-icon_music:hover {
   color: white;
@@ -4106,7 +4128,7 @@ input[type="range"] {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translateX(-80%) translateY(-35%);
+  transform: translateX(-50%) translateY(-35%);
   width: calc(330px * 0.7);
   height: calc(330px * 0.7);
   border-radius: 50%;
@@ -4148,7 +4170,7 @@ input[type="range"] {
 #box1_setup.anim {
   transition: all 0.5s ease-in-out, height 0.5s ease, width 0.5s ease,
     background 0.25s, border 0.25s;
-  transform: translateX(-50%) translateY(-35%);
+  transform: translateX(-70%) translateY(-350%);
   width: 20px;
   height: 30px;
   border-radius: 15px;
