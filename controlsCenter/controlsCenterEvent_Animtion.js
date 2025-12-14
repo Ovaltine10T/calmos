@@ -475,6 +475,7 @@ const sliders = {
     startY: 0,
     startHeight: 0,
     height: 0,
+    borderRadius: 34px,
   },
   brightness: {
     container: brightnessContainer,
@@ -485,6 +486,7 @@ const sliders = {
     startY: 0,
     startHeight: 0,
     height: 0,
+    borderRadius: 34px
   },
 };
 
@@ -642,3 +644,4 @@ function removeDragVolumeAndBrightnessEvents() {
   window.removeEventListener("mousemove", briMouseMove);
   window.removeEventListener("mouseup", briMouseUp);
 }
+
