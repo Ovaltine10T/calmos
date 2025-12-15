@@ -921,8 +921,8 @@ body::-webkit-scrollbar-thumb:hover {
   flex-grow: 1;
   display: flex;
   justify-content: none;
-  top: 8px;
-  left: 22px;
+  top: 12px;
+  left: 26px;
   color: rgb(255, 255, 255);
   font-size: 15px;
   z-index: 100;
@@ -965,8 +965,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .status-battery {
   position: absolute;
-  top: 9px;
-  right: 22px;
+  top: 13px;
+  right: 26px;
   width: 30px;
   height: 15px;
   background: rgb(78 78 78 / 0.5);
@@ -1028,7 +1028,7 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(-50%);
   position: absolute;
   display: fixed;
-  top: 34px;
+  top: 39px;
   left: 50%;
   height: 15px;
   width: 15px;
@@ -3330,7 +3330,7 @@ input[type="range"] {
 .island_circle {
   position: absolute;
   display: flex;
-  top: 33px;
+  top: 38px;
   left: 50%;
   height: 15px;
   width: 15px;
