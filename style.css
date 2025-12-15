@@ -4173,7 +4173,7 @@ input[type="range"] {
   transform: translateX(-220%) translateY(-350%);
   width: 20px;
   height: 30px;
-  border-radius: 15px;
+  border-radius: 5px;
   background: rgba(0, 0, 255, 0.65);
   border: 20px solid rgba(0, 0, 255, 0);
 }
@@ -4190,7 +4190,7 @@ input[type="range"] {
   transform: translateX(-50%) translateY(-50%);
   width: 40px;
   height: 45px;
-  border-radius: 15px;
+  border-radius: 5px;
   scale: 1.2;
 }
 
