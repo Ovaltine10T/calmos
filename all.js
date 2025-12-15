@@ -394,9 +394,9 @@ window.addEventListener("mouseup", () => {
 const handlers = {
   box9: () => {
     Object.assign(island.style, {
-      height: "25px",
+      height: "15px",
       borderRadius: "25px",
-      width: "120px",
+      width: "100px",
     });
     buttons_island.classList.remove("show");
     time_island.classList.remove("show");
@@ -409,7 +409,7 @@ const handlers = {
       island2.style.transform = "translateX(-50%) translateY(0px) scale(1)";
       clickables["box3"].style.pointerEvents = "auto";
 
-      island.style.width = "120px";
+      island.style.width = "100px";
       island_circle.style.transition = "all 0.7s cubic-bezier(.67,.2,.38,1.27)";
       island_circle.style.transform = "translateX(calc(-50% - 77px)) scale(1)";
 
@@ -420,9 +420,9 @@ const handlers = {
   },
   box3: () => {
     Object.assign(island2.style, {
-      height: "25px",
+      height: "15px",
       borderRadius: "25px",
-      width: "120px",
+      width: "100px",
     });
 
     image_island_right2.classList.remove("show");
