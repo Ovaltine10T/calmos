@@ -1028,7 +1028,7 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(-50%);
   position: absolute;
   display: fixed;
-  top: 39px;
+  top: 34px;
   left: 50%;
   height: 15px;
   width: 15px;
@@ -3330,7 +3330,7 @@ input[type="range"] {
 .island_circle {
   position: absolute;
   display: flex;
-  top: 38px;
+  top: 33px;
   left: 50%;
   height: 15px;
   width: 15px;
