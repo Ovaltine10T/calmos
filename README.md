@@ -2,7 +2,7 @@
 This is a website which simulates a conecpt OS!
 
 # Design
-The UI is completely changed and everything is round for a cleaner and more simplistic look, whilst still having functionality.
+The UI is completely changed and everything is round for a cleaner and more simplistic look, whilst still having functionality. It also has liquid glass effects (replica).
 
 # Feautres
 The features are pretty much the same.
