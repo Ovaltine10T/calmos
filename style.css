@@ -1494,10 +1494,11 @@ p {
 }
 .popup-overlay_wallpaper.open {
   background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
 }
 .popup_wallpaper {
   position: absolute;
-  background: var(--bg--background);
+  background: #000000c4;
   color: var(--bg--color);
   padding-bottom: 50px;
   padding-top: 20px;
@@ -1508,8 +1509,9 @@ p {
   bottom: 0px;
   font-family: "Noto sans", sans-serif;
   font-weight: bold;
-  transform: translateY(300px);
+  transform: translateY(120px) scale(0.01);
   transition: transform 0.4s cubic-bezier(0.27, 0, 0.47, -0.31);
+  scale: 0.9;
 }
 .popup_wallpaper.open {
   transition: transform 0.4s cubic-bezier(0.35, 1.31, 0.47, 1);
@@ -3694,16 +3696,16 @@ input[type="range"] {
     transform: translateX(0);
   }
   20% {
-    transform: translateX(5px);
+    transform: translateX(8px);
   }
   40% {
-    transform: translateX(-5px);
+    transform: translateX(-6px);
   }
   60% {
-    transform: translateX(5px);
+    transform: translateX(4px);
   }
   80% {
-    transform: translateX(-5px);
+    transform: translateX(-2px);
   }
   100% {
     transform: translateX(0);
@@ -3731,7 +3733,7 @@ input[type="range"] {
   position: absolute;
   transition: all 0.4s var(--delay, 0ms),
     background-color 0.3s var(--delay, 0ms);
-  transform: translateY(200%);
+  transform: translateY(200%) scale(0.1);
   border-radius: 50%;
 }
 .dot_password.filled_password::before {
