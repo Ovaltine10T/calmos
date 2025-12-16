@@ -20,5 +20,6 @@ The original project was made by Quandz24 so credits go to him.
 
 # VERSION TRACK
 - 17.2 and 17.2.1 - released Dec 14
-- 17.2.2 - Dec 17
+- 17.2.2 - released Dec 16
+- 17.2.3 - Dec 22
 - 17.3 - Jan 3 2026
