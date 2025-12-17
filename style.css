@@ -3,9 +3,9 @@
   --bg--text_lock_screen:
   "";
   --bg--color_text_lock_screen: #ffffff;
-  --bg--ratio_phone: 330 / 700;
+  --bg--ratio_phone: 330 / 733;
   --bg--size_width_phone: 330px;
-  --bg--size_height_phone: 700px;
+  --bg--size_height_phone: 733px;
   --bg--border_radius_phone: 45px;
   --bg--scale_phone: 0.9;
   --bg--border_radius_system: 35px; /* 20-35px */
