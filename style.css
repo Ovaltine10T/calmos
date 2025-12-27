@@ -584,6 +584,7 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   background-color: #ffffff36;
   border-radius: 20px;
+  background-color: color-mix(in srgb, var(-c-glass) 36%, transparent);
   width: 87%;
   bottom: 25px;
   height: 80px;
