@@ -603,6 +603,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 90px;
   bottom: 65px;
   border-radius: 50px;
+  background: #ffffff00;
 }
 
 #wallpaper_aod2 {
@@ -881,7 +882,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .app4app {
   opacity: 1;
-  transform: translateX(0%) translateY(0%) scale(.5) scaleX(0.01) scaleY(0.003);
+  transform: translateX(0%) translateY(0%) scale(.5) scaleX(0.003) scaleY(0.001);
   border-radius: calc(var(--bg--border_radius_phone) - 1px);
   transition: all 0.4s ease;
   pointer-events: all;
@@ -953,8 +954,6 @@ body::-webkit-scrollbar-thumb:hover {
   gap: 5px;
   translate: 15px;
   border-radius: 50px;
-  box-shadow: inset 0 0 5px #ffffffdb;
-  background: #ffffff47;
 }
 #editControlsCenterBtn.open {
   opacity: 1;
@@ -967,6 +966,8 @@ body::-webkit-scrollbar-thumb:hover {
   border-radius: 50%;
   padding: 7px;
   transition: background 0.15s;
+  background: #ffffff47;
+  box-shadow: inset 0 0 5px #ffffff;
 }
 #editControlsCenterBtn svg:active {
   background: rgba(255, 255, 255, 0.3);
@@ -1585,9 +1586,8 @@ p {
   height: 50px;
   width: 90%;
   bottom: 140px;
-  border-radius: calc(
-    var(--bg--border_radius_system) - var(--bg--border_radius_system) / 3
-  );
+  border-radius: 50px;
+  box-shadow: inset 0 0 5px #ffffff61;
 }
 input[type="file"] {
   display: none;
@@ -2029,7 +2029,6 @@ input[type="range"] {
   border-radius: 50px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0);
   box-shadow: inset 0 0 5px #ffffff6e;
 }
 
@@ -2505,7 +2504,7 @@ input[type="range"] {
   border-top: 2px solid #86868642;
   border-bottom: 2px solid #86868642;
   padding: 8px 0;
-  gap: 50px;
+  gap: 45px;
   background: #ffffff24;
   border-radius: 70px;
 }
@@ -2521,6 +2520,8 @@ input[type="range"] {
 }
 .navitem_phone.active {
   color: #4dd150;
+  background: #3b3b3b;
+  border-radius: 50px
 }
 .navicon_phone {
   width: 20px;
@@ -4334,7 +4335,7 @@ input[type="range"] {
 }
 
 #btn_goto_setup {
-  color: rgba(0, 0, 255, 0.65);
+  color: #00b30077;
   border: 4px solid #00b30077;
   padding: 10px;
   border-radius: 25px;
