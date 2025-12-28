@@ -213,7 +213,7 @@ body::-webkit-scrollbar-thumb:hover {
   transition: all 0.3s ease;
   z-index: 0;
   opacity: 1;
-  box-shadow: inset 0 0 3px #ffffffb3;
+  box-shadow: inset 0 0 10px #ffffffb3;
 }
 #previewPositionIcon {
   position: relative;
@@ -584,7 +584,6 @@ body::-webkit-scrollbar-thumb:hover {
   position: absolute;
   background-color: #ffffff36;
   border-radius: 20px;
-  background-color: color-mix(in srgb, var(-c-glass) 36%, transparent);
   width: 87%;
   bottom: 25px;
   height: 80px;
@@ -596,6 +595,7 @@ body::-webkit-scrollbar-thumb:hover {
   transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   z-index: 0;
   backdrop-filter: blur(5px);
+  box-shadow: inset 0 0 10px #ffffffdb;
 }
 .khayapp.lock {
   opacity: 0;
@@ -877,7 +877,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .app4app {
   opacity: 1;
-  transform: translateX(-50%) translateY(-80%) scale(.5) scaleX(0.01) scaleY(0.003);
+  transform: translateX(0%) translateY(0%) scale(.5) scaleX(0.01) scaleY(0.003);
   border-radius: calc(var(--bg--border_radius_phone) - 1px);
   transition: all 0.4s ease;
   pointer-events: all;
@@ -948,6 +948,8 @@ body::-webkit-scrollbar-thumb:hover {
   opacity: 0;
   gap: 5px;
   translate: 15px;
+  border-radius: 50px;
+  box-shadow: inset 0 0 5px #ffffffdb;
 }
 #editControlsCenterBtn.open {
   opacity: 1;
@@ -2369,12 +2371,12 @@ input[type="range"] {
 }
 .display_calc {
   position: absolute;
-  top: 150px;
+  top: 100px;
   height: 90px;
   width: 70%;
   text-align: right;
   padding: 15px;
-  font-size: 2rem;
+  font-size: 3rem;
   border-radius: 10px;
   margin-bottom: 20px;
   overflow-x: auto;
@@ -2410,7 +2412,7 @@ input[type="range"] {
   font-weight: 500;
   font-family: "slate for oneplus", sans-serif;
   color: #353535;
-  box-shadow: inset 0 0 3px #ffffff6b;
+  box-shadow: inset 0 0 5px #ffffff61;
 }
 .btn_calc:hover {
   background: #e0e0e0;
@@ -4000,6 +4002,7 @@ input[type="range"] {
   text-align: right;
   color: white;
   transition: all 0.15s ease-out;
+  box-shadow: inset 0 0 10px #ffffffdb;
 }
 .box_pass.off {
   background-color: white;
@@ -4104,6 +4107,7 @@ input[type="range"] {
   font-size: 20px;
   color: white;
   cursor: pointer;
+  box-shadow: inset 0 0 5px #ffffff7d;
 }
 
 .key_crea_pass:active {
@@ -4551,7 +4555,7 @@ input[type="color"] {
   scale: 0.95;
 }
 .itemControlsCenter.activeControlsCenter {
-  background: #ffffffc7;
+  background: #ffffffb5;
 }
 .itemControlsCenter.activeControlsCenter svg {
   fill: rgb(0 0 0 / 67%);
@@ -4834,7 +4838,7 @@ canvas {
 
 .itemPreview {
   background: rgba(255, 255, 255, 0.35);
-  border-radius: var(--bg--border_radius_system);
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4876,7 +4880,7 @@ canvas {
 
 .slider-innerPreview {
   background: white;
-  border-radius: 0px;
+  border-radius: 50px;
   width: 100%;
   height: 50%;
   justify-content: center;
@@ -4968,10 +4972,10 @@ canvas {
   margin: 15px 0;
   display: flex;
   justify-content: center;
-  background: var(--bg--background);
+  background: #00000036;
   padding-bottom: 10px;
   padding-top: 7px;
-  border-radius: 17px;
+  border-radius: 30px;
 }
 
 .popup-input_alert input {
