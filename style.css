@@ -950,6 +950,7 @@ body::-webkit-scrollbar-thumb:hover {
   translate: 15px;
   border-radius: 50px;
   box-shadow: inset 0 0 5px #ffffffdb;
+  background: #ffffff47;
 }
 #editControlsCenterBtn.open {
   opacity: 1;
