@@ -2622,14 +2622,14 @@ input[type="range"] {
 
 .system-toast {
   position: absolute;
-  top: 60px;
+  top: 580px;
   left: 50%;
-  transform: translateX(-50%) translateY(-80px);
-  background: var(--bg--background2);
+  transform: translateX(-50%) translateY(50px) scale(.1);
+  background: #17171999;
   color: var(--bg--color);
   padding: 15px;
-  border-radius: 13px;
-  font-size: 12px;
+  border-radius: 50px;
+  font-size: 15px;
   z-index: 10012310;
   opacity: 0;
   pointer-events: none;
@@ -2637,11 +2637,12 @@ input[type="range"] {
   text-align: center;
   max-width: none;
   transition: all 0.4s, transform 0s ease 0.4s;
+  backdrop-filter: blur(2.5px);
 }
 
 .system-toast.show {
   opacity: 1;
-  box-shadow: 0 0 20px #00000085;
+  box-shadow: inset 0 0 10px #ffffff3b;
   transform: translateX(-50%) translateY(0);
   transition: all 0.4s cubic-bezier(0.06, 0.77, 0.22, 0.96);
 }
