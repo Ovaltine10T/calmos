@@ -42,7 +42,7 @@
     padding-inline: 4px;
     background: #d3d3d350;
     bottom: 10px;
-    border-radius: calc(var(--bg-borderRadiusPhone) - 13px);
+    border-radius: 70px;
     flex-wrap: nowrap;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
@@ -542,4 +542,5 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
