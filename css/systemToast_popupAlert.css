@@ -10,6 +10,7 @@
 }
 .popup-backdrop_alert.show_alert {
     background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
 }
 
 /* Popup box */
@@ -123,3 +124,4 @@
     transform: translateX(-50%) translateY(0);
     transition: all 0.4s cubic-bezier(0.06, 0.77, 0.22, 0.96);
 }
+
