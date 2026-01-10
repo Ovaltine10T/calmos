@@ -147,9 +147,11 @@
 }
 .slider-innerControlsCenter.volumeControlsCenter {
     height: 100%;
+    border-radius: 50px;
 }
 .brightnessControlsCenter .slider-innerControlsCenter {
     background: white;
+    border-radius: 50px;
 }
 .bottom_textControlsCenter {
     position: absolute;
@@ -223,3 +225,4 @@
     scale: 0.7;
     filter: blur(5px);
 }
+
