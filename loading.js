@@ -76,15 +76,15 @@ window.addEventListener("DOMContentLoaded", async () => {
         if (localStorage.getItem("version") == null) {
             addNotification(
                 "https://quandz24-ui.github.io/OriginWEB/originData/iconPacks/origin_icon/system_settings.png",
-                "OriginWEB",
-                "Welcome to OriginWEB V2.0.00 for the first time",
+                "CalmOS System",
+                "Setup complete",
                 "app_settings"
             );
         } else
             addNotification(
                 "https://quandz24-ui.github.io/OriginWEB/originData/iconPacks/origin_icon/system_settings.png",
-                "OriginWEB",
-                "Welcome to OriginWEB V2.0.00",
+                "CalmOS System",
+                "Your phone restarted.",
                 "app_settings"
             );
         localStorage.setItem("version", "2000");
@@ -370,4 +370,5 @@ function formatSize(bytes) {
     if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(2) + " KB";
     return (bytes / 1024 / 1024).toFixed(2) + " MB";
 }
+
 
