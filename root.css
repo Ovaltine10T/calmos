@@ -3,7 +3,7 @@
     --bg-heightPhone: 617;
     --bg-borderRadiusPhone: calc(41px * 1);
 
-    --bg-borderRadiusSys: 25px;
+    --bg-borderRadiusSys: 31px;
 
     --bg-borderRadiusIcon: 31px;
     --bg-scaleIcon: 0.9;
@@ -333,5 +333,6 @@ right {
     width: 50%;
     justify-content: end;
 }
+
 
 
