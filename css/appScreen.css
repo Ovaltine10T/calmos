@@ -335,7 +335,7 @@
     z-index: 10;
     overflow: hidden;
 
-    border-radius: calc(var(--bg-borderRadiusIcon) * var(--bg-scaleIcon));
+    border-radius: 31px;
 
     transition: top calc(0.7s * var(--bg-speedAnimation)) cubic-bezier(0.35, 1.2, 0.33, 1),
         border-radius calc(0.7s * var(--bg-speedAnimation)) cubic-bezier(0.35, 1.2, 0.33, 1),
@@ -542,5 +542,6 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
